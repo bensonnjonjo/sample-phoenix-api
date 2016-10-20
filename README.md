@@ -1,4 +1,4 @@
-## Sample Phoenix App
+## Sample Phoenix API
 
 ### Installed Plugins
 * Absinthe Plug 
