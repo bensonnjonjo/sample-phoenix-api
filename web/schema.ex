@@ -5,7 +5,7 @@ defmodule SamplePhoenix.Schema do
 
   query do
     field :posts, list_of(:post) do
-      resolve &Resolve.Post.all/2
+      resolve &SamplePhoenix.Resolver.Post.all/2
     end
   end
 end
